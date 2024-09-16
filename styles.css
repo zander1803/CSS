@@ -1,0 +1,226 @@
+.container{
+    gap:4px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 0fr;
+    grid-template-areas: 
+    "main "
+    " content1"
+
+}
+main{
+    background-color: rgb(70, 23, 31,0);
+    height:10vh;
+    
+}
+
+
+
+#content1{
+    background-color: rgb(27, 27, 59, 0);
+    grid-area:content1;
+}
+
+.cancel{
+    background: transparent;
+    background-color: #00FFFF;
+    padding:15px;
+    border-radius: 20px;
+    border:none;
+   box-shadow: 0 0 5px #00FFFF,
+   0 0 25px #00FFFF;
+   margin-left:40px;
+   margin-right:20px;
+   
+
+}
+.cancel:hover{
+    box-shadow: 0 0 5px #00FFFF,
+    0 0 25px #00FFFF, 0 0 50px #00FFFF,
+    0 0 100px #00FFFF, 0 0 200px #00FFFF;
+}
+
+
+
+.sign_upbtn{
+    background: transparent;
+    background-color: #00FFFF;
+    padding:15px;
+    border-radius: 20px;
+    border:none;
+   box-shadow: 0 0 5px #00FFFF,
+   0 0 25px #00FFFF;
+}
+
+.sign_upbtn:hover{
+    box-shadow: 0 0 5px #00FFFF,
+    0 0 25px #00FFFF, 0 0 50px #00FFFF,
+    0 0 100px #00FFFF, 0 0 200px #00FFFF;
+}
+.sign_up{
+    color: aliceblue;
+    font-size: 40px;
+    margin-left: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+.email{
+    background-color: rgb(232, 241, 243, 0.7);   
+     margin-bottom: 10px;
+    padding-right: 70px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    
+    
+}
+.emailp{
+    color: aliceblue;    font-size: 18px;
+    margin-bottom: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.passwordp{
+    color: aliceblue;    font-size: 20px;
+    margin-bottom: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
+
+}
+.password{
+    background-color: rgb(232, 241, 243, 0.7);    padding-right: 70px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border-color: khaki;
+    border-color: rgb(255, 255, 255);
+
+
+}
+
+
+.confirm{
+    color: aliceblue;
+    font-size:20px;
+    margin-bottom: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
+    
+}
+.reenter{
+    background-color: rgb(232, 241, 243, 0.7);    margin-bottom: 10px;
+    padding-right: 70px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    
+
+}
+.remember{
+    font-size: 10px;
+}
+.sec{
+   background-size: 100%;
+    background-position-x: 2cap;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top-right-radius:10%;
+    margin-left:35%;
+    margin-top:2%;
+    padding-top:2.5%;
+    padding-left: 30%;
+    padding-bottom:3%;
+    padding-right: 4%;
+    border-bottom-left-radius: 10%;
+    
+    
+  
+    
+    
+}
+.sec1{
+    color: white;
+    text-align: center;
+    display: grid;
+    background-color: rgba(0,0,0, 0.5);
+    margin-top: 4.1%;
+    margin-left:60%;
+    margin-right:-32%;
+    padding-left:6%;
+    padding-right:6%;
+    padding-bottom: 5.1%;
+    border-bottom-left-radius: 10%;
+    
+}
+
+body{
+    
+    background-image: url(1luffy.gif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    }
+
+    .facebook{
+           
+        margin-left: -320px;
+        margin-top: -10px;
+            width:70px;
+            height:40px;
+    
+}
+.twitter{
+        position: absolute;
+           margin-left:-10px;
+           margin-top: -10px;
+            
+            width:40px;
+            height:40px;
+}
+.youtube{
+    position: absolute;
+    margin-left:30px;
+    margin-top:-17px;
+            width:-10px;
+            height:53px;
+}
+.tg{
+    position: absolute;
+    margin-left:70px ;
+    margin-top: -12px;
+            width:69px;
+            height:41px;
+}
+.head{
+    font-size: 45px;
+}
+.p{
+    font-style: oblique;
+    
+}
+.enj{
+    color: aliceblue;
+    text-align: center;
+    font-style: oblique;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left:-650px;
+    margin-top: -260px;;
+}
+.mk{
+    color: aliceblue;
+    font-style: oblique;
+    margin-left: -290px;
+    margin-top: 150px
+}
+.wel{
+    position: fixed;
+    margin-left: -285px;
+    margin-top:-380px;
+    font-size: 45px;
+    color:aliceblue;
+}
+
